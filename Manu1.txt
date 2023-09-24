@@ -1,0 +1,119 @@
+Create GitHub account:
+https://github.com/login 
+GitHub download:
+https://git-scm.com/downloads 
+https://tortoisegit.org/download/ (optional)
+Commands to be run in cmd:
+	git version
+Following are the commands 
+for providing user Name 
+	git config --global user.name "ManuSam23" 
+for providing user email
+	git config --global user. email “manoharswamikari@gmail.com “
+
+--> Create new repository in git by giving…
+1. Name
+2. Public 
+3. create repository 
+E.g., lara/test/any repository name
+Copy the repository link
+	https://github.com/ManuSam23 /lara. Git
+Here, 
+ManuSam23  User Name
+Lara 		 Repository Name
+For ease understanding. Create a folder for git repositories
+E.g., git-local-repositories (folder name)
+
+
+Open cmd
+Step 1 
+ git init
+Step 2 
+ Performing clone operation in cmd
+ The repository link  https://github.com/ManuSam23 /lara.git
+	git clone https://github.com/ManuSam23 /lara.git
+
+Meanwhile, in our git repository folder
+New repository lara folder will be created.
+Open lara repository folder
+Add any text/word document and save.
+In local system whatever repository is there we need do three main things…
+By using command prompt
+1.	Adding  
+2.	Committing  
+3.	Pushing  
+
+Step 3 
+	 git add –all
+Step 4 
+	git commit -m "testing my first commit"
+Step 5  
+	git push origin main
+ 
+GitHub 			(Day 2)	20/09/2023 Wed
+
+Git is a software we need to install it.
+https://git-scm.com/downloads 
+Let’s us consider
+In a project multiple developers involving in the project
+Person A developing lara1.java
+Person B developing lara2.java
+These classes code should be accessible by all the other project developers.
+In other words,
+Let’s take customer module and product module are two repositories…
+Customer code should be accessible by remaining developers and also product module code should be accessible by all the remaining project developers.
+For this purpose, it is very much recommended to have centralized repository.
+Authentication is very much required…
+For this sign up is required
+User name && password and mail-id is recommended…
+
+In local system whatever repository is there we need do three main things…
+By using command prompt
+4.	Adding  (git add –all)
+5.	Committing  (git commit -m “Testing”)
+6.	Pushing  (git push origin main)
+
+Steps to be followed before Authentication
+1.	Go to existing GitHub account 
+2.	Sign out 
+
+
+Steps to be followed during Authentication
+1.	Go to control panel
+2.	User Accounts
+3.	Credential Manager
+4.	Windows credential
+5.	git: https://github.com  
+6.	Remove
+7.	Yes 
+
+Steps to be followed for Authentication
+Open new command prompt from new repository folder (Alt+ d) type (cmd)
+Try performing push operation
+	git push origin main
+Now it will ask authentication sign up with your GitHub account.
+Note: We can also try this by taking two/ three GitHub accounts.
+
+
+ 
+21/09/2023 Thursday
+Cloning and pushing to other’s repository
+
+Managing by one user and pushing by our own.
+Like as Project managing by manager and pushing by project developers.
+Create a repository…lms
+By default, others cannot push the respiratory
+For this we have create 
+Go to settings and click on collaborators
+Here, we need to provide email id of GitHub account
+Click add people
+Add a collaborator to lms (repository name)
+Now open the email which ever given for collaboration.
+https://github.com/ManuSam23/lms/invitations
+https://github.com/ManuSam23/lms.git
+
+24/09/2023 sun
+git pull
+To add files to our folder sent to repository by another developer.
+
+
